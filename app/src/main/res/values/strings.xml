@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VendingMachine</string>
+    <string name="img_vendingMachine">img_VendingMachine</string>
+</resources>
