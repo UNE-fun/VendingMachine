@@ -58,7 +58,7 @@ public class bought extends Service {
                         break;
                     case 3:
                         if(thorwedMoney > 210) {
-                            drinkResult.add("Monster");
+                            drinkResult.add("MONSTER");
                             thorwedMoney -= 210;
                         }
                         break;
