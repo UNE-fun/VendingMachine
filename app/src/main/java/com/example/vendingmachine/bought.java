@@ -35,7 +35,7 @@ public class bought extends Service {
                 switch(num){
                     case 0:
                         //これが買えない時点で何も買えない
-                        if(thorwedMoney > 100) {
+                        if(thorwedMoney >= 100) {
                             drinkResult.add("おいしい水");
                             thorwedMoney -= 100;
                         }
@@ -45,31 +45,31 @@ public class bought extends Service {
                         }
                         break;
                     case 1:
-                        if(thorwedMoney > 130) {
+                        if(thorwedMoney >= 130) {
                             drinkResult.add("缶コーヒー");
                             thorwedMoney -= 130;
                         }
                         break;
                     case 2:
-                        if(thorwedMoney > 150) {
+                        if(thorwedMoney >= 150) {
                             drinkResult.add("コーラ");
                             thorwedMoney -= 150;
                         }
                         break;
                     case 3:
-                        if(thorwedMoney > 210) {
+                        if(thorwedMoney >= 210) {
                             drinkResult.add("MONSTER");
                             thorwedMoney -= 210;
                         }
                         break;
                     case 4:
-                        if(thorwedMoney > 210) {
+                        if(thorwedMoney >= 210) {
                             drinkResult.add("Red Bull");
                             thorwedMoney -= 210;
                         }
                         break;
                     case 5:
-                        if(thorwedMoney > 300) {
+                        if(thorwedMoney >= 300) {
                             drinkResult.add("眠眠打破");
                             thorwedMoney -= 300;
                         }
